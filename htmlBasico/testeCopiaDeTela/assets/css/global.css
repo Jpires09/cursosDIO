@@ -1,0 +1,16 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #19202e;
+}
+
+.head-shot {
+    max-width: 25rem;
+}
+
+.container-fluid{
+    background-color: #1e2738;
+}
