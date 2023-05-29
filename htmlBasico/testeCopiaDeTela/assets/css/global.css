@@ -7,21 +7,14 @@ body{
     color: #fff;
 }
 
-.links-ul  {
-    margin: 0;
-    display: grid;
-    place-items: center;
-    list-style: none;
-    grid-template-columns: 1fr 1fr;
+/* ------------------------HEADERS LIST------------------------ */
+.icons-ul  {
+    display: flex;
+    column-gap: 2rem;
 }
 
-.header {
-    height: 10rem;
-}
-
-.links-ul li{
-    max-height: 10rem;
-    color: #9fadc7;
+.icon{
+    display: inline-flex;
 }
 
 .button {
@@ -41,6 +34,7 @@ body{
     0 0 100px cyan, 0 0 200px cyan;
 }
 
+/* ------------------------PIC------------------------ */
 .picture{
     display: grid;
     place-items: center;
@@ -51,7 +45,7 @@ body{
     border-radius: 50%;
 }
 
-
+/* ------------------------PRESENTATION------------------------ */
 .name{
     display: flex;
     justify-content: center;
@@ -72,7 +66,17 @@ body{
     margin: 0;
 }
 
-main{
+.contact-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+    border-top: .1rem solid #808080;
+    border-bottom: .1rem solid #808080;
+}
+
+/* ------------------------MAIN------------------------ */
+.main{
     display: flex;
     flex-wrap: nowrap;
     background-color: #1e2738;
